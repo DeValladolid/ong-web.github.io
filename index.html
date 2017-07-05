@@ -13,6 +13,7 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/galeria.css" />
+		<link href="https://fonts.googleapis.com/css?family=Anton|Raleway" rel="stylesheet">
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!-- www.cssplantillas.es.tl -->
@@ -25,6 +26,52 @@ $('div#touchgallery2').touchgallery({  // initialize second demo
 			height: 300
 })})
 </script>
+
+<style>
+img.double-border {
+		border: 5px solid #ddd;
+		padding: 5px; /*Inner border size*/
+		background: #fff; /*Inner border color*/
+		 float: right;
+}
+
+h2 {
+	font-family: "Anton";
+}
+
+	h1,h2,h3,h4,h5,h6 {
+		font-family:"Raleway",arial;
+		font-style:normal;
+		font-weight:600;
+		text-transform:uppercase;
+		clear:both;
+		}
+	h1 {
+		line-height:1;
+		margin-top:0.75em;
+		font-size:4em;
+		text-align:center;
+		letter-spacing:0.03em;
+		}
+	h2 {
+		font-size:3em;
+		line-height:1;
+		letter-spacing:0.03em;
+		}
+	.h3,h3 {
+		font-size:1.25em;
+		line-height:1.2;
+		}
+	.h4,.h5,.h6,h4,h5,h6 {
+		font-size:1em;
+		font-weight:bold;
+		line-height:1.5;
+		}
+
+h2.align-left {
+	align: left;
+}
+</style>
 
 	</head>
 	<body>
@@ -76,32 +123,28 @@ $('div#touchgallery2').touchgallery({  // initialize second demo
 							</section>
 
 						<!-- First Section -->
-						<section id="first" class="main special">
-							<header class="major">
-								<h2>El Proyecto</h2>
-								<p>La solidaridad es clave para el bienestar del mundo, pero sobre todo en este momento donde guerras,
-									conflictos o ideologías extremas que creíamos enterradas ahondan profundamente en las desigualdades de la sociedad.</p>
-							</header>
+						<section id="intro" class="main">
+						<div class="spotlight">
+							<div class="content">
+								<header class="major">
+									<h2>El Proyecto</h2>
+								</header>
+								<p>Este proyecto pretende mostrar la cara invisible de la ciudad de Valladolid, esa que no se ve pero es igual de importante o más que la que conocemos.
+									Personas <i>sintecho</i> que reciben la ayuda desinteresada de voluntarios que se preocupan por la gente más necesitada de la sociedad.
+									Gracias a los invisibles por hacer visible este trabajo.
+</p>
 
-							<p ALIGN=left>Nos interesa el hecho de ayudar a la gente que está en una situación precaria o necesita algún tipo de ayuda para vivir,
-								por eso en este trabajo me centro en contar mi experiencia con una de las ONG con las que contacte, con la finalidad de poder dar un testimonio sobre este voluntariado e
-								informar de todas las opciones que tienen los ciudadanos de la ciudad de Valladolid para colaborar con los más necesitados.</p>
-							<p ALIGN=left>Para hacer este trabajo, he contactado con diversas ONG, siendo RED INCOLA la elegida por la relación estrecha que tiene con la gente sin hogar en Valladolid y
-								las facilidades que me han dado desde el primer momento para llevar mi proyecto a cabo.
-								<p ALIGN=left>Todos los lunes y los miércoles a las 21:30, las personas voluntarias de Red Íncola quedan en la asociación Entreculturas, aquí se dividen en grupos y
-									cada uno de ellos carga con termos, galletas, zumos, café y azúcar.</p>
-								<p align=left>Red Íncola tiene localizadas a todas las personas que viven sintecho en Valladolid y prepara las rutas para ir a verles, ofrecerles café, conversación… además,
-									ofrece a los voluntarios la posibilidad de asistir a charlas para formarse y poder empatizar mejor con la gente que vive en la calle.</P>
-								<p ALIGN=left>Durante varias noches he acudido a hacer estas "rutas" solidarias por la ciudad de Valladolid. Las memorias “Día a día” son el testimonio de una experiencia inolvidable
-									y muy enriquecedora. Las fotos son la prueba gráfica de lo que " no se ve " en esta ciudad. Por último, la landing page refleja todo el contenido de este proyecto.
-									Este último paso ha sido importante para demostrar el papel tan fundamental que tienen los nuevos soportes en el mundo de hoy en día. La página nos da la opción de con sólo un clic
-									acceder a las diferentes pestañas; toda la información, la experiencia, los vídeos y las fotos, pero también la información de todas estas ONG que ayudan en Valladolid.</p>
-							<footer>
-							</section>
+							</div>
+							<div>
+								<span class="image"><a title="Proyecto" href="proyecto.html" target="about_blank"/><img href="proyecto.html" src="images/prueba-img.jpg"/></span></a>
+							</div>
+</section>
 
 							<!-- First Section -->
-							<section id="second" class="main special">
-								<header class="major">
+							<section id="second" class="main">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
 									<h2>Día a día</h2>
 
 								</header>
@@ -110,82 +153,47 @@ $('div#touchgallery2').touchgallery({  // initialize second demo
 								<footer>
 								</section>
 
+
+
 								<!-- Entrevistas -->
 								<section id="cta" class="main">
 									<div class="spotlight">
 										<div class="content">
 											<header class="major">
-												<h2>Entrevistas</h2>
+												<left><h2>Entrevistas</h2></left>
 											</header>
 											<h3>Reyes Martín</h3>
+											<span class="double-border"><a title="Reyes Martín | Entrevista" href="reyes-martin.html" target="about_blank"><img class="double-border" src="images/reyes-martin.jpg" alt="" width="300" height="300" /></span></a>
 											<p>Coordinadora de Red Íncola.</p>
-											<span class="normal"><a title="Reyes Martín | Entrevista" href="reyes-martin.html" target="about_blank"><img src="images/reyes-martin.jpg" alt="" width="300" height="300" /></span></a>
-											<!--
-											<div>
-												<li><strong>¿Cómo surge Red Íncola?</strong></li>
-															<p ALING=LEFT>A finales de los 90, con la llegada masiva de inmigrantes a Valladolid, se empezaron a crear los primeros programas de lo que hoy es la Red y a partir de ahí se fue organizando</P>
-												<li><strong>¿Qué te mueve a hacer esto?</strong></li>
-															<p ALING=LEFT>Me gusta mi trabajo, me gusta el contacto con la gente, tanto voluntarios como usuarios que se acercan cada día por la oficina o que asisiten a los programas</P>
 
-												<li><strong>¿Cuál es el mayor problema con el que te has encontrado como coordinadora?</strong></li>
-															<p ALING=LEFT>No me encuentro con grandes dificultades, quizá la más significativa es la falta de voluntarios en momentos puntuales y la premura para incorporarles a los programas.</P>
-
-												<li><strong>¿Cómo definirías la situación que vive la gente sin hogar en Valladolid, en qué momento estamos?</strong></li>
-															<p ALING=LEFT>Situación muy vulnerable, los que tienen alguna pequeña ayuda muy habituados a “vivir” en la calle les cuesta mucho hacerse a vivir en vivienda, pensión, etc…
-															Me parece que estamos en un impás, igual que hace 10 años</P></P>
-
-												<li><strong>¿Qué apoyo consideras fundamental por parte de la ciudad, del ayuntamiento?</strong></li>
-															<p ALING=LEFT>Haría falta un programa de atención a personas sin hogar integral, en el que la vivienda fuera accesible y a partir de ahí, con  un compromiso,
-																ir trabajando otras áreas como salud, higiene, adicciones, formación, inserción laboral, etc…</P>
-
-												<li><strong>¿Qué podríamos mejorar como ciudadanos para ayudar a esta gente sin hogar? y, ¿qué tipo de ayuda echas en falta a la hora de trabajar en este proyecto?</strong></li>
-															<p ALING=LEFT>Como ciudadanos, no ignorarlos, viven en nuestra calle y tienen nombre.
-															Un “Buenos días, Manuel”, no cuesta nada, es un vecino más
-															En cuanto a nuestro Café Solidario, continuidad y constancia en los voluntarios, recursos materiales hacen falta pocos.
-															Lo más importante es la actitud de muestro acercamiento a las personas sin hogar.</P>
-
-											</div>
-										-->
-											<hr>
 											</p>
 
 											</div>
-											<!--
-											<span class="image"><img src="images/pic01.jpg" alt="" /></span>
-										-->
+
 										</div>
+
 
 											<h3>Luis Pareja</h3>
 											<p>Colaborador de Red Incola.</p><p>
-												<span class="normal"><a title="Luis Pareja | entrevista" href="luis-pareja.html" target="about_blank"><img src="images/luis-pareja.jpg" alt="" width="300" height="300"/></span></a>
-												<!--
-												<div>
-													<li><strong>¿Cuánto tiempo llevas en Red Íncola?</strong></li>
-													<p ALING=LEFT>Desde Noviembre del año pasado</P>
-													<li><strong>¿Por qué decidiste dar el paso para ser voluntario de Red Íncola?</strong></li>
-													<p ALIGN=LEFT>Para darme cuenta del mundo real en el que vivimos; No todo es bonito y maravilloso, también vivimos rodeados de gente con problemas y necesidades.</p>
-													<li><strong>¿Cómo fue tu primer día? ¿Qué sensaciones tuviste?</strong></li>
-													<p ALIGN=LEFT>Fue duro, trabajo en un hotel de lujo donde la gente invierte mucho dinero en disfrutar de una buena estancia. Para mí ha sido un cambio radical;
-														me ha hecho fijarme que en los pequeños detalles está la felicidad.</p>
-													<li><strong>¿Qué siente un voluntario al irse a casa después de estar con gente que no tiene un hogar fijo?</strong></li>
-													<p ALIGN=LEFT>Ganas de cambiar este mundo injusto. De buscar respuestas a preguntas que otros no se hacen.</p>
-													<li><strong>¿Cuál es la experiencia que más te ha marcado en este tiempo como voluntario?</strong></li>
-													<p ALIGN=LEFT>El conocer a personas de distintos gustos y formas de vida que quieran ayudar al más necesitado.</p>
-													<li><strong>¿Has conocido alguna persona que haya podido salir de la calle? y por el contrario, ¿qué sientes cuando ves que alguien que mucho tiempo después
-														sigue exactamente igual que el día en que lo conociste?</strong></li>
-													<p ALIGN=LEFT>De momento no he conocido a nadie que lo haya logrado, ya que muchos de ellos prefieren la calle antes que estar regidos bajo normas de convivencia.
-														Por otro lado, en cuanto a la segunda pregunta, siento ganas de luchar más por hacerles la vida algo más sencilla; por escucharles y aconsejarles.<p>
-												</div>
-											-->
-											</p>
+												<span class="normal"><a title="Luis Pareja | entrevista" href="luis-pareja.html" target="about_blank"><img class="double-border" src="images/luis-pareja.jpg" alt="" width="300" height="300"/></span></a>
 
+											</p>
+											<br>
+											<br>
+											<br>
+											<br>
+											<br>
+											<br>
+											<br>
+											<br>
+											<br>
 
 
 
 								</section>
-								<section id="gal" class="main special">
+								<section id="gal" class="main">
 									<header class="major">
-										<h2> Galería</h2>
+										<left><h2> Galería</h2></left>
 									</header>
 									<footer class="major">
 										<div id="touchgallery2" class="touchgallery"><ul>
@@ -198,7 +206,7 @@ $('div#touchgallery2').touchgallery({  // initialize second demo
 								</section>
 
 						<!-- Second Section -->
-							<section id="map" class="main special">
+							<section id="map" class="main">
 								<header class="major">
 									<h2>ONG Valladolid</h2>
 
@@ -213,31 +221,19 @@ $('div#touchgallery2').touchgallery({  // initialize second demo
 
 
 						<!-- Get Started -->
-							<section id="final" class="main special">
+						<section id="final" class="main">
+						<div class="spotlight">
+							<div class="content">
 								<header class="major">
 									<h2>Agradecimientos</h2>
-
 								</header>
-								<footer class="major">
-									<DIV>
-									<p ALIGN=LEFT>Quiero agradecer a mi tutora Estrella Alonso su trabajo y dedicación para que este proyecto viera la luz.</p>
-									<p ALIGN=LEFT>A Nacho Aldama, por traducir mis ideas a unos cuantos algoritmos.</P>
-									<P ALIGN=LEFT>A Irene Barrientos por enfocar mis pensamientos.</P>
-									<P ALIGN=LEFT>Y por supuesto a Red Íncola.</P>
-								</div>
-									<p ALIGN=LEFT>Quiero agradecer a esta ONG la forma con la que me han acogido desde el primer día, las facilidades y el interés
-										que han puesto en que este trabajo saliera adelante. Desde Reyes la coordinadora y el cerebro de esta organización hasta el
-										último voluntario que he tenido la fortuna de conocer. Gracias de verdad. Vuestra labor os hace únicos.</p>
-									<p ALIGN="LEFT">La fundación Red Íncola nace a finales de la década de los 90 inspirada en el humanismo cristiano, coincidiendo con la llegada masiva de inmigrantes a Valladolid. La falta de ayuda institucional específica propició que un numeroso grupo de personas se organizara para ayudar a los inmigrantes, lo que llevó a la organización y elaboración de proyectos más organizados que dieron como resultado fundaciones como Red Íncola.
-									<p ALIGN="LEFT">Red Íncola trabaja en diferentes sectores y con unos fines predeterminados como garantizar el alojamiento, la manutención, integrar a la población inmigrante, prevenir la marginación social, posibilitar la inserción laboral, favorecer la integración o fomentar la igualdad de sexo.</p>
+								<p>Agradecimientos a las personas que han ayudado a hacer este trabajo.</p>
 
-                                    <p ALIGN="LEFT">La asociación se basa en dos aristas fundamentales a la hora de llevar a cabo el trabajo: dignidad y justicia. Estos son los dos principales valores, reconociendo y defendiendo el pleno ejercicio de los derechos humanos para propiciar las condiciones que permitan a todos ser miembros de la sociedad.</P>
-
-                                    <p ALIGN="LEFT">Red Íncola asume la responsabilidad de cooperar con diferentes entidades, tanto públicas como privadas que ayudan a mantener digna la imagen de los inmigrantes que llegan a nuestro país.</p>
-
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/FGWyD6mNYpQ?rel=0" frameborder="0" allowfullscreen></iframe>
-								</footer>
-							</section>
+							</div>
+							<div>
+								<span class="image"><a title="Agradecimientos" href="agradecimientos.html" target="about_blank"/><img href="agradecimientos.html" src="images/prueba-img.jpg"/></span></a>
+							</div>
+</section>
 
 					</div>
 
